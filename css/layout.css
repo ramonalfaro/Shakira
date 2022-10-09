@@ -1,0 +1,54 @@
+/* structural elements styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+/* figures and images */
+  section {
+    position: relative;
+    width: 100%;
+  }
+  
+  article {
+    float: left;
+    border:2px solid;
+    border-color: rgb(255, 154, 225);
+    border-radius: 50px;
+    width: 46%;
+    margin: 20px;
+    margin-top: 50px;
+    background-color:rgba(255, 217, 0, 0.323);
+  }
+  
+  article h2 {
+    border: 2px solid;
+    background-color:lavender ;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  figure {
+    margin: 4vh;
+  }
+  
+  
+  figure img {
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
