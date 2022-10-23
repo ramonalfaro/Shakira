@@ -23,23 +23,26 @@ content="IE=edge">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     </head>
     <style type="text/css">
-    h1 {background-color:peachpuff;
-    color:darkgreen;
-    border: 2px solid #FFA500;
-    border-radius:5px}
+    h1 {background-color:rgb(57, 38, 195);
+    color:rgb(255, 160, 195);
+    border: 4px solid #69b2ff;
+    border-radius:8px;}
     </style>
-    <link href="style.css" rel="stylesheet">
     <body>
         <header>
             <h1>Shakira</h1>
         </header>
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="faq.html">FAQs</a> |
-        <a href="gallery.html">Gallery</a> |
-        <a href="contact-us.html">Contact Us</a>
+        <a href="index.html"><button class="w3-button w3-light-blue">Home</button></a> |
+        <a href="faq.html"><button class="w3-button w3-light-blue">FAQ</button></a> |
+        <a href="gallery.html"><button class="w3-button w3-light-blue">Gallery</button></a> |
+        <a href="contact-us.html"><button class="w3-button w3-light-blue">Contact Us</button></a> |
+        <a href="about-us.html"><button class="w3-button w3-light-blue">About Us</button></a>
     </nav>    
     <section>
         <h2>Shakira's Artistry</h2>
@@ -49,7 +52,8 @@ content="IE=edge">
             <hr>
             <h3>Discography</h3>
             <p>
-                <ul><li>Magia (1991)</li>
+                <ul class="w3-ul w3-border">
+                    <li>Magia (1991)</li>
                     <li>Peligro (1993)</li>
                     <li>Pies Descalzos (1995)</li>
                     <li>Dónde Están los Ladrones? (1998)</li>
@@ -87,11 +91,13 @@ content="IE=edge">
                 In 2014, Shakira became the first musical act to perform at the FIFA World Cup three times.
                 A fun fact is that there was a new species of a wasp discovered and was named after her (Aleiodes shaakirae).
             </p>
+            <div class="w3-panel w3-pink w3-topbar w3-bottombar w3-border-blue">
             <p><blockquote>"In 2018, Spotify included Shakira in the list of the top 10 most streamed female artists of the decade on the platform, making her the highest streamed Latin artist.
             In 2020, Shakira became the first female artist to have 4 songs from different decades to have over 100 million streams on Spotify, also marking her as the only artist with Spanish songs,
             the only Latin artist, and third overall after Michael Jackson and Eminem to achieve this milestone."</blockquote>
             <cite>“Shakira.” Wikipedia, Wikimedia Foundation, https://en.wikipedia.org/wiki/Shakira#Achievements. </cite>
             </p>
+            </div>
         </article>
         <hr>
         <article>
@@ -119,6 +125,39 @@ content="IE=edge">
             </p>
         </article>
     </section>
+    <div class="w3-container">
+        <h2>Shakira's Tours</h2>
+      
+        <table class="w3-table-all">
+          <thead>
+            <tr class="w3-pink">
+              <th>Pies Descalzos International Tour</th>
+              <th>The Sun Comes Out The World Tour</th>
+              <th>El Dorado World Tour</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>90 shows</td>
+            <td>107 shows</td>
+            <td>54 shows</td>
+          </tr>
+          <tr>
+            <td>Feb 1996-Oct 1997</td>
+            <td>Sept 2010-Oct 2011</td>
+            <td>June 2018-Nov 2018</td>
+          </tr>
+          <tr>
+            <td>South America, North America, Europe</td>
+            <td>South America, North America, Europe, Asia, Africa</td>
+            <td>South America, North America, Europe, Asia</td>
+          </tr>
+          <tr>
+              <td>Pies Descalzos Album</td>
+              <td>She Wolf & Sale el Sol Album</td>
+              <td>El Dorado Album</td>
+          </tr>
+        </table>
+      </div>
     <hr>
     <footer>
         <p>
