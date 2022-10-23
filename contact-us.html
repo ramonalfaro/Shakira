@@ -23,96 +23,82 @@ content="IE=edge">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style type="text/css">
-      h1 {background-color:peachpuff;
-      color:darkgreen;
-      border: 2px solid #FFA500;
-      border-radius:5px}
+      h1 {background-color:rgb(57, 38, 195);
+    color:rgb(255, 160, 195);
+    border: 4px solid #69b2ff;
+    border-radius:8px;}
       </style>
     </head>
-<link rel="stylesheet" href="style.css">
     <body>
         <header>
             <h1>Shakira</h1>
         </header>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="faq.html">FAQs</a> |
-            <a href="gallery.html">Gallery</a> |
-            <a href="contact-us.html">Contact Us</a>
+            <a href="index.html"><button class="w3-button w3-light-blue">Home</button></a> |
+            <a href="faq.html"><button class="w3-button w3-light-blue">FAQ</button></a> |
+            <a href="gallery.html"><button class="w3-button w3-light-blue">Gallery</button></a> |
+            <a href="contact-us.html"><button class="w3-button w3-light-blue">Contact Us</button></a> |
+            <a href="about-us.html"><button class="w3-button w3-light-blue">About Us</button></a>
         </nav>
         <section>
             <h2>Contact Us!</h2>
-            <fieldset>
-              <h3>Personal Information</h3>
-              <form id="myMailerForm" method="post" action="mailto:ramonalfaro6807@yahoo.com">
-                <p>
-                  <label title="Enter your full name.">Name <input type="text" name="Name" placeholder="Name"></label>
-                </p>
-                <p>
-                  <label title="Enter your email address.">E-Mail <input type="text" name="Email" placeholder="Email"></label>
-                </p>
-                <p>
-                  <label title="Select to be contacted."><input type="checkbox" name="contact-me"> Contact Me Back</label>
-                </p>
-                <h3 id="#id1">Message</h3>
-                <p>
-                  <label title="Select if you have a question.">Question or Concern<input type="radio" name="request"></label>
-                  <br>
-                  <label title="Select if you have a comment.">Comment <input type="radio" name="request"></label>
-                </p>
-                <p>
-                  <label for="message">Message Content</label><br>
-                  <textarea id="message" name="message"></textarea>
-                </p>
-                <input type="submit" name="submit" value="Submit">
-                <input type="reset" value="Erase Me">
-              </form>
-            </fieldset>
+            <div class="w3-container w3-pink">
+              <p>Personal Information<p>
+            </div>
+            <form class="w3-container">
+              <label class="w3-text-blue"><b>First Name</b></label>
+              <input class="w3-input w3-border w3-light-grey" type="text">
+              <label class="w3-text-blue"><b>Last Name</b></label>
+              <input class="w3-input w3-border w3-light-grey" type="text">
+              <label class="w3-text-blue"><b>Email</b></label>
+              <input class="w3-input w3-border w3-light-grey" type="text">
+              <label class="w3-text-blue"><b>Phone Number</b></label>
+              <input class="w3-input w3-border w3-light-grey" type="text">
+              <input class="w3-check" type="checkbox" checked="checked">
+            <label>Contact Me Back</label>
+            <input class="w3-check" type="checkbox" checked="checked">
+            <label>Questions/Concerns</label>
+            <br>
+            <br>
+            <button class="w3-btn w3-blue">Send</button>
+            </form>
           </section>
       </body>
       <br>
-      <table border="1" cellpadding="2">
-        <caption>Shakira's Tours</caption>
-        <thead>
+      <div class="w3-container">
+        <h2>Shakira's Tours</h2>
+      
+        <table class="w3-table-all">
+          <thead>
+            <tr class="w3-pink">
+              <th>Pies Descalzos International Tour</th>
+              <th>The Sun Comes Out The World Tour</th>
+              <th>El Dorado World Tour</th>
+            </tr>
+          </thead>
           <tr>
-            <th>&nbsp;</th>
-            <th scope="col" abbr="Column 1" id="col1"><span class="designtools3">Pies Descalzos International Tour</span></th>
-            <th scope="col" abbr="Column 2" id="col2"><span class="designtools3">The Sun Comes Out The World Tour</span></th>
-            <th scope="col" abbr="Column 3" id="col3"><span class="designtools3">El Dorado World Tour</span></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row"><span class="designtools2">Number of Shows</span></th>
-            <td headers="col1"><span class="designtools">90</span></td>
-            <td headers="col2"><span class="designtools">107</span></td>
-            <td headers="col3"><span class="designtools">54</span></td>
-          </tr>
-          <tr>
-            <th scope="row"><span class="designtools2">Associated Album</span></th>
-            <td headers="col1"><span class="designtools">Pies Descalzos</span></td>
-            <td headers="col2"><span class="designtools">She Wolf & Sale el Sol</span></td>
-            <td headers="col3"><span class="designtools">El Dorado</span></td>
+            <td>90 shows</td>
+            <td>107 shows</td>
+            <td>54 shows</td>
           </tr>
           <tr>
-            <th scope="row"><span class="designtools2">Box Office</span></th>
-            <td headers="col1"><span class="designtools">N/A</span></td>
-            <td headers="col2"><span class="designtools">US $100 Million</span></td>
-            <td headers="col3"><span class="designtools">US $75 Million</span></td>
+            <td>Feb 1996-Oct 1997</td>
+            <td>Sept 2010-Oct 2011</td>
+            <td>June 2018-Nov 2018</td>
           </tr>
           <tr>
-            <th scope="row"><span class="designtools2">Start & End</span></th>
-            <td headers="col1"><span class="designtools">Feb 1996-Oct 1997</span></td>
-            <td headers="col2"><span class="designtools">Sept 2010-Oct 2011</span></td>
-            <td headers="col3"><span class="designtools">June 2018-Nov 2018</span></td>
+            <td>South America, North America, Europe</td>
+            <td>South America, North America, Europe, Asia, Africa</td>
+            <td>South America, North America, Europe, Asia</td>
           </tr>
           <tr>
-            <th scope="row"><span class="designtools2">Continents Visited</span></th>
-            <td headers="col1"><span class="designtools">South America, North America, Europe</span></td>
-            <td headers="col2"><span class="designtools">North America, Europe, South America, Asia, Africa</span></td>
-            <td headers="col3"><span class="designtools">Europe, Asia, North America, South America</span></td>
+            <td>Pies Descalzos Album</td>
+              <td>She Wolf & Sale el Sol Album</td>
+              <td>El Dorado Album</td>
           </tr>
-        </tbody>
-      </table>
+        </table>
+      </div>
     </html>
